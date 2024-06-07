@@ -76,7 +76,14 @@ namespace LiveSplit.Terraria {
         TorchGodsFavor = 5043,
         BeeHive = 5066,
         BastStatue = 4276,
-        OcramsRazor = 5334
+        OcramsRazor = 5334,
+        PiggyBank = 87,
+        LesserManaPotion = 110,
+        ManaPotion = 189,
+        GreaterManaPotion = 500,
+        LavaBucket = 207,
+        SpecularFish = 2309,
+        SeafoodDinner = 4034
     }
 
     public enum ENpcs {

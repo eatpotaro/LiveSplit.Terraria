@@ -40,19 +40,20 @@
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LiveSplit">
+      <HintPath>..\..\..\..\Program Files (x86)\LiveSplitDevBuild\LiveSplit.exe</HintPath>
+    </Reference>
+    <Reference Include="LiveSplit.Core">
+      <HintPath>..\..\..\..\Program Files (x86)\LiveSplitDevBuild\LiveSplit.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="LiveSplit.Core">
-      <HintPath>..\LiveSplit\LiveSplit\bin\Release\LiveSplit.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="UpdateManager">
-      <HintPath>..\LiveSplit\LiveSplit\bin\Release\UpdateManager.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files (x86)\LiveSplitDevBuild\UpdateManager.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

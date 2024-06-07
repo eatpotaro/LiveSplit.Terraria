@@ -62,6 +62,13 @@
     <Split name="Item_74" text="Platinum coin"/>
     <Split name="Item_4276" text="Bast statue"/>
     <Split name="Item_5334" text="Ocram's Razor"/>
+    <Split name="Item_87" text="Piggy Bank"/>
+    <Split name="Item_110" text="Lesser Mana Potion"/>
+    <Split name="Item_189" text="Mana Potion"/>
+    <Split name="Item_500" text="Greater Mana Potion"/>
+    <Split name="Item_207" text="Lava Bucket"/>
+    <Split name="Item_2309" text="Specular Fish"/>
+    <Split name="Item_4034" text="Seafood Dinner"/>
   </Parent>
   <Parent name="Npcs" text="Npcs">
     <Split name="Npc_17" text="Merchant"/>
