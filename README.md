@@ -8,12 +8,11 @@ adds more items
 - multicoloured wrench
 - ocrams razor
 - piggy bank
-- mana potion
-more (?)
+- mana potions
+- lava bucket
+- specular fish
+- seafood dinner
 
 # Installation
 download livesplit.terraria.dll (in components folder
 insert file into components folder of livesplit 
-
-# read pls
-note: havent updated for piggy or mana pot yet, pls wait 
