@@ -41,10 +41,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LiveSplit">
-      <HintPath>..\..\..\Downloads\LiveSplitDevBuild\LiveSplit.exe</HintPath>
+      <HintPath>..\..\..\..\Program Files (x86)\LiveSplitDevBuild\LiveSplit.exe</HintPath>
     </Reference>
     <Reference Include="LiveSplit.Core">
-      <HintPath>..\..\..\Downloads\LiveSplitDevBuild\LiveSplit.Core.dll</HintPath>
+      <HintPath>..\..\..\..\Program Files (x86)\LiveSplitDevBuild\LiveSplit.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -53,7 +53,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="UpdateManager">
-      <HintPath>..\..\..\Downloads\LiveSplitDevBuild\UpdateManager.dll</HintPath>
+      <HintPath>..\..\..\..\Program Files (x86)\LiveSplitDevBuild\UpdateManager.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -90,10 +90,10 @@
     <PackageReference Include="ILMerge" Version="3.0.41" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Components\LiveSplit.Terraria.dll" />
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
+    <Content Include="Components\LiveSplit.Terraria.dll" />
   </ItemGroup>
   <Target Name="AfterBuild">
     <Copy SourceFiles="$(TargetDir)$(TargetName)$(TargetExt)" DestinationFiles="$(TargetDir)$(TargetName).build$(TargetExt)" />
