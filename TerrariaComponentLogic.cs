@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace LiveSplit.Terraria {
     public partial class TerrariaComponent {
@@ -81,7 +82,13 @@ namespace LiveSplit.Terraria {
                     itemIds.Add((int)EItems.DuneriderBoots);
                     itemIds.Add((int)EItems.FlurryBoots);
                     itemIds.Add((int)EItems.SailfishBoots);
+                } else if(split.Equals("Shellphone")) {
+                    itemIds.Add((int)EItems.Shellphone);
+                    itemIds.Add((int)EItems.ShellphoneSpawn);
+                    itemIds.Add((int)EItems.ShellphoneOcean);
+                    itemIds.Add((int)EItems.ShellphoneHell);
                 }
+
             }
 
             if(needAllBossSplit) {
@@ -192,8 +199,13 @@ namespace LiveSplit.Terraria {
                             itemIds.Remove((int)EItems.FlurryBoots);
                             itemIds.Remove((int)EItems.SailfishBoots);
                             logger.Log("Split Boots Item " + TerrariaEnums.ItemName(type));
-                        } else {
-                            logger.Log("Split Item " + TerrariaEnums.ItemName(type));
+                        } else if(type == (int)EItems.Shellphone || type == (int)EItems.ShellphoneHell
+                        || type == (int)EItems.ShellphoneOcean || type == (int)EItems.ShellphoneSpawn) {
+                            itemIds.Remove((int)EItems.Shellphone);
+                            itemIds.Remove((int)EItems.ShellphoneSpawn);
+                            itemIds.Remove((int)EItems.ShellphoneOcean);
+                            itemIds.Remove((int)EItems.ShellphoneHell);
+                            logger.Log("Split Shellphone Item " + TerrariaEnums.ItemName(type));
                         }
                         return true;
                     }

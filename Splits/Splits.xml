@@ -69,6 +69,13 @@
     <Split name="Item_207" text="Lava Bucket"/>
     <Split name="Item_2309" text="Specular Fish"/>
     <Split name="Item_4034" text="Seafood Dinner"/>
+    <Split name="Item_3018" text="Seedler"/>
+    <Split name="Item_857" text="SandstorminaBottle"/>
+    <Split name="Item_934" text="FlyingCarpet"/>
+    <Split name="Item_173" text="Obsidian"/>
+    <Split name="Item_183" text="GlowingMushroom"/>
+    <Split name="Item_2768" text="DrillContainmentUnit"/>
+    <Split name="Shellphone" text="Shellphone (Shellphone/ShellphoneSpawn/ShellphoneOcean/ShellphoneHell)"/>
   </Parent>
   <Parent name="Npcs" text="Npcs">
     <Split name="Npc_17" text="Merchant"/>

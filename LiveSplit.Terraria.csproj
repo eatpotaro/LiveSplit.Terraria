@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LiveSplit.Terraria</RootNamespace>
     <AssemblyName>LiveSplit.Terraria</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -41,10 +41,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LiveSplit">
-      <HintPath>..\..\..\..\Program Files (x86)\LiveSplitDevBuild\LiveSplit.exe</HintPath>
+      <HintPath>..\..\..\Downloads\LiveSplitDevBuild\LiveSplit.exe</HintPath>
     </Reference>
     <Reference Include="LiveSplit.Core">
-      <HintPath>..\..\..\..\Program Files (x86)\LiveSplitDevBuild\LiveSplit.Core.dll</HintPath>
+      <HintPath>..\..\..\Downloads\LiveSplitDevBuild\LiveSplit.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -53,7 +53,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="UpdateManager">
-      <HintPath>..\..\..\..\Program Files (x86)\LiveSplitDevBuild\UpdateManager.dll</HintPath>
+      <HintPath>..\..\..\Downloads\LiveSplitDevBuild\UpdateManager.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +91,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Components\LiveSplit.Terraria.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Target Name="AfterBuild">
     <Copy SourceFiles="$(TargetDir)$(TargetName)$(TargetExt)" DestinationFiles="$(TargetDir)$(TargetName).build$(TargetExt)" />

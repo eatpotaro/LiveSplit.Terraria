@@ -83,7 +83,17 @@ namespace LiveSplit.Terraria {
         GreaterManaPotion = 500,
         LavaBucket = 207,
         SpecularFish = 2309,
-        SeafoodDinner = 4034
+        SeafoodDinner = 4034,
+        Seedler = 3018,
+        SandstorminaBottle = 857,
+        FlyingCarpet = 934,
+        Obsidian = 173,
+        GlowingMushroom = 183,
+        DrillContainmentUnit = 2768,
+        Shellphone = 5358,
+        ShellphoneSpawn = 5359,
+        ShellphoneOcean = 5360,
+        ShellphoneHell = 5361
     }
 
     public enum ENpcs {
