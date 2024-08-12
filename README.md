@@ -12,7 +12,13 @@ adds more items
 - lava bucket
 - specular fish
 - seafood dinner
-
+- pyramid mobility
+- obsidian
+- glowing mushroom
+- DCU
+- shellphone
+- sigil
+  
 # Installation
 download livesplit.terraria.dll (in components folder
 insert file into components folder of livesplit 
