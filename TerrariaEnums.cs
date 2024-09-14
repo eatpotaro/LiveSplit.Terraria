@@ -94,7 +94,8 @@ namespace LiveSplit.Terraria {
         ShellphoneSpawn = 5359,
         ShellphoneOcean = 5360,
         ShellphoneHell = 5361,
-        CelestialSigil = 3601
+        CelestialSigil = 3601,
+        Glass = 170
     }
 
     public enum ENpcs {

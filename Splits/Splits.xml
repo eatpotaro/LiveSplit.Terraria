@@ -77,6 +77,7 @@
     <Split name="Item_2768" text="DrillContainmentUnit"/>
     <Split name="Shellphone" text="Shellphone (Shellphone/ShellphoneSpawn/ShellphoneOcean/ShellphoneHell)"/>
     <Split name="Item_3601" text="CelestialSigil"/>
+    <Split name="Item_170" text="Glass"/>
   </Parent>
   <Parent name="Npcs" text="Npcs">
     <Split name="Npc_17" text="Merchant"/>
