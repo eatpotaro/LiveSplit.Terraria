@@ -95,7 +95,10 @@ namespace LiveSplit.Terraria {
         ShellphoneOcean = 5360,
         ShellphoneHell = 5361,
         CelestialSigil = 3601,
-        Glass = 170
+        Glass = 170,
+        RichMahoganyDresser = 648,
+        MushroomStatue = 470,
+        GuideVoodooDoll = 267
     }
 
     public enum ENpcs {

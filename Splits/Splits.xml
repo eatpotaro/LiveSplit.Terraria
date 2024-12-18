@@ -78,6 +78,9 @@
     <Split name="Shellphone" text="Shellphone (Shellphone/ShellphoneSpawn/ShellphoneOcean/ShellphoneHell)"/>
     <Split name="Item_3601" text="CelestialSigil"/>
     <Split name="Item_170" text="Glass"/>
+    <Split name="Item_648" text="RichMahoganyDresser"/>
+    <Split name="Item_470" text="MushroomStatue"/>
+    <Split name="Item_267" text="GuideVoodooDoll"/>
   </Parent>
   <Parent name="Npcs" text="Npcs">
     <Split name="Npc_17" text="Merchant"/>
