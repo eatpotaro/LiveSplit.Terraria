@@ -98,7 +98,11 @@ namespace LiveSplit.Terraria {
         Glass = 170,
         RichMahoganyDresser = 648,
         MushroomStatue = 470,
-        GuideVoodooDoll = 267
+        GuideVoodooDoll = 267,
+        ActiveStoneBlock = 511,
+        InactiveStoneBlock = 512,
+        FireGauntlet = 1343,
+        LihzahrdAltar = 1292
     }
 
     public enum ENpcs {
