@@ -18,7 +18,15 @@ adds more items
 - DCU
 - shellphone
 - sigil
-  
+- glass
+- rich mahogany dresser
+- mushroom statue
+- guide voodoo doll
+- active stone block
+- inactive stone block
+- fire gauntlet
+- lihzahrd altar
+- 
 # Installation
 download livesplit.terraria.dll (in components folder
 insert file into components folder of livesplit 
