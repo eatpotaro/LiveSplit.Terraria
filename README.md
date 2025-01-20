@@ -26,7 +26,7 @@ adds more items
 - inactive stone block
 - fire gauntlet
 - lihzahrd altar
-- 
+  
 # Installation
 download livesplit.terraria.dll (in components folder
 insert file into components folder of livesplit 
