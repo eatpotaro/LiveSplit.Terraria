@@ -26,6 +26,8 @@ adds more items
 - inactive stone block
 - fire gauntlet
 - lihzahrd altar
+- picksaw
+- ebonwood door
   
 # Installation
 download livesplit.terraria.dll (in components folder
