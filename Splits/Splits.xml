@@ -85,6 +85,8 @@
     <Split name="Item_512" text="InctiveStoneBlock"/>  
     <Split name="Item_1343" text="FireGauntlet"/>  
     <Split name="Item_1292" text="LihzahrdAltar"/>  
+    <Split name="Item_1294" text="Picksaw"/>  
+    <Split name="Item_650" text="EbonwoodDoor"/>  
   </Parent>
   <Parent name="Npcs" text="Npcs">
     <Split name="Npc_17" text="Merchant"/>

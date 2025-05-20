@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LiveSplit.Terraria</RootNamespace>
     <AssemblyName>LiveSplit.Terraria</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -40,10 +40,12 @@
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LiveSplit">
+    <Reference Include="LiveSplit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Program Files (x86)\LiveSplitDevBuild\LiveSplit.exe</HintPath>
     </Reference>
-    <Reference Include="LiveSplit.Core">
+    <Reference Include="LiveSplit.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Program Files (x86)\LiveSplitDevBuild\LiveSplit.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />

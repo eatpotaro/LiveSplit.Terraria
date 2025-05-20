@@ -1,4 +1,5 @@
 using System;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace LiveSplit.Terraria {
 
@@ -102,7 +103,9 @@ namespace LiveSplit.Terraria {
         ActiveStoneBlock = 511,
         InactiveStoneBlock = 512,
         FireGauntlet = 1343,
-        LihzahrdAltar = 1292
+        LihzahrdAltar = 1292,
+        Picksaw = 1294,
+        EbonwoodDoor = 650
     }
 
     public enum ENpcs {
